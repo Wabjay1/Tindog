@@ -48,7 +48,6 @@ h1,h2,h3,h4,h5,h6{
 /* Title  */
 #title{
     text-align: left;
-    position: relative;
     z-index: -1;
 }
 
@@ -92,7 +91,10 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /* testimonials */
-
+#testimonials {
+    position: relative;
+    z-index: 1;
+}
 #testimonials img{
     width: 10%;
     border-radius: 100%;
